@@ -21,7 +21,8 @@ else :
 # # function code 
 first_name="Bishal"
 second_name="Roy"
-full_name=first_name+" " +second_name
+roll_number="2"
+full_name=first_name+" " +second_name +" " +roll_number
 print(full_name)
 
 
@@ -33,3 +34,13 @@ print(full_name)
 
 
 
+# print expression 
+x=24
+y=35
+print("The sum of",x,"&",y,"=",x+y )
+
+
+# this function is only available in python 3.6 
+name = "Bishal"
+age = 21
+print(f"My name is {name} and I am {age} years old.")
