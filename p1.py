@@ -1,21 +1,21 @@
-# print("Hello world")
-# print("Hello,\nWorld!")
-# print ("BIshal\n + \n❤️")
-# print ("Bishal\n")
-# print ("Roy")
+print("Hello world")
+print("Hello,\nWorld!")
+print ("BIshal\n + \n❤️")
+print ("Bishal\n")
+print ("Roy")
 
-# print("Hello,",end=" ")
+print("Hello,",end=" ")
 
-# print("World!")
+print("World!")
 
 
-# # if else code 
-# a=10
-# b=20
-# if a<b:
-#   print("a is not good student")
-# else :
-#   print("b is good student")
+# if else code 
+a=10
+b=20
+if a<b:
+  print("a is not good student")
+else :
+  print("b is good student")
 
 
 # # function code 
