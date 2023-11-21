@@ -44,3 +44,36 @@ print("The sum of",x,"&",y,"=",x+y )
 name = "Bishal"
 age = 21
 print(f"My name is {name} and I am {age} years old.")
+
+
+a=3
+b=5
+
+print("sum", a+b)
+print("subtract", a-b)
+print("multiply", a*b)
+print("division", a/b)
+print("floor division", a//b)
+print("exponential", b**a)
+
+# comparison operator 
+print(a==b) #equal to
+print(a!=b) #not equal to
+print(a<b and a<b) 
+
+
+# input 
+name = input("Enter Your Name =")
+print(name)
+print(type(name))
+
+age=int (input("Enter your age ="))
+print(age)
+print(type(age))
+
+
+# input & sum this 
+number1=int(input("Write first number"))
+number2=int(input("Enter second number"))
+sum = number1 + number2
+print(sum)
