@@ -26,3 +26,14 @@ elif sellingprice<costprice:
  print("Loss = ", costprice-sellingprice)
 else: 
     print("No Profit-No Loss")
+
+
+# Multiple condition using and - or 
+eng_mark=int(input("Enter English Marks = "))     
+math_mark=int(input("Enter Math Marks = "))
+if eng_mark and math_mark >80:
+ print("Grade = A+")
+elif eng_mark or math_mark>80:
+ print("Grade = B") 
+else:
+ print("Pass")
