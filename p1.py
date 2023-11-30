@@ -53,6 +53,7 @@ print("sum", a+b)
 print("subtract", a-b)
 print("multiply", a*b)
 print("division", a/b)
+print("remainder", a%b)
 print("floor division", a//b)
 print("exponential", b**a)
 
@@ -63,6 +64,10 @@ print(a<b and a<b)
 
 
 # input 
+# type of 
+number=3.8
+print(type(number))
+
 name = input("Enter Your Name =")
 print(name)
 print(type(name))
