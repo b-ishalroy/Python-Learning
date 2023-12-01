@@ -1,8 +1,3 @@
-postivenumber= float(input("Enter your Number"))
-# if postivenumber>0:
-#   print("Number is postive")
-
-# elif postivenumber<0:
-#  print("Number is negative")
-# else:
-#   print(".......")
+num = int(input("Enter number"))
+output="Even" if num%2==0 else"odd"
+print(output)
