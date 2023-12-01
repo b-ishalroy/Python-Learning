@@ -23,6 +23,8 @@ while i<10:
     i +=2
 
 
+
+# continue, it is use when x==y condition this will skip
 x=4
 y=0
 while x>=0:
@@ -33,4 +35,27 @@ while x>=0:
         continue
     else:
         print(x,y)
+
+
+# break = stop the code when condition comes
+x=4
+y=0
+while x>=0:
+    x-=1
+    y+=1
+
+    if x==y:
+        break
+    else:
+        print(x,y)
+
+
+
+# print the give pattern 
+n=int(input("Enter number = "))
+for n in range(n):
+    print("*" * 5)
+
+n=int(input("Enter Number = "))
+
 
