@@ -8,16 +8,15 @@ list.append(90)
 print(list)
 
 
-
 list1=[50,40,10]
 list1.insert(2,99)
 print(list1)
 
 
-
 list2=[50,40,10]
 list.extend(list2)
 print(list)
+
 
 
 
@@ -31,3 +30,20 @@ print(list)
 
 list.pop(0)
 print(list)
+
+
+
+# Changing item in a list 
+mylist=["bishal","is","my","name"]
+mylist[0]="BOY"
+print(mylist)
+
+
+
+# sort()    =>it is a method sort the list alphanumerically by default 
+ulist=["bishal","is","my","name" ,"a" ]
+ulist.sort()
+print(ulist)
+
+ulist.sort(reverse=True)
+print(ulist)
