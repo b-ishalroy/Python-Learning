@@ -87,3 +87,17 @@ for i in range(1, n+1, 1):
 n = int(input("Enter the value of n: "))
 for i in range(1, n + 1):
     print("*" * i)
+    
+
+    
+
+o = int(input("Enter the value of o: "))
+for i in range (1, o+1): #loop for rows
+    #printing spaces
+    print(" " * (o-i), end="")
+
+    #printing digits
+    for j in range (1, 2 * i):
+        print(j, end="")
+    print()
+     
