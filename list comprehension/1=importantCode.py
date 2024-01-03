@@ -64,8 +64,8 @@ set1.update(set2)
 print(set1)
  
 
+
 def greet(name):
-    """Greets a person by name."""
     print("Hello, " + name + "!")
 
 # Call the function
@@ -75,17 +75,42 @@ greet("Bishal")  # Output: Hello, Alice!
 
 # Print the maximum aRd miRimum elemeRt iR a set in Python 
 set = [1,2,3,5,6,77]
-
 minset= min(set)
 maxset= max(set)
-
 print(minset)
 print(maxset)
 
-#  GiveR three arrays, we have to find common elemets iR three sorted lists using sets.  
 
+def mixnum (numb):
+   print(max(numb))
+mixnum([2,3,5])
+   
+
+
+#  GiveR three arrays, we have to find common elemets iR three sorted lists using sets.  
 ar1={1,5,9,11,15}
 ar2 = {2,1,6,11}
 ar1.intersection_update(ar2)
 print(ar1)
+
+
+# list 
+mylist = list("Bishal")
+print (mylist)
+
+
+def intersecOfSet(arra1,arra2,arra3):
+   s1= set(arra1)
+   s2=set(arra2)
+   s3=set(arra3)
+
+   sets1=s1.intersection(s2)
+   result_set=sets1.intersection(s3)
+   finalList=list(result_set)
+   print(finalList)
+
+intersecOfSet([1,5,6,4], [2,5,4,6], [6,5,3,7])
+
+
+
 
