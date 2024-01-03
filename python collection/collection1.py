@@ -14,9 +14,9 @@ if "kiwi" not in fruits:
 
 print(fruits[-3]) #apples
 print(fruits[-2]) #bannana
-print(fruits[-1])
+print(fruits[-1]) #mango
 
 
 #fruits[starting : ending]
-print(fruits[0:3])
+print(fruits[0:2])
 
