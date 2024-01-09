@@ -20,3 +20,17 @@ print(fruits[-1]) #mango
 #fruits[starting : ending]
 print(fruits[0:2])
 
+alphabets="abcdefghijklmnopqrsuvwxyz"
+reverse_alphabets=alphabets[::-1]
+
+print(reverse_alphabets)
+
+dict1=dict(zip(alphabets,reverse_alphabets))
+print(dict1)
+
+input_string="Bishal"
+prefix = input_string[1:3]
+print(prefix)
+
+suffix=input_string[3:]
+print(suffix)
