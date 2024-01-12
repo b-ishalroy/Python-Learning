@@ -1,1 +1,1 @@
-print (len(phones))
+items

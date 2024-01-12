@@ -100,3 +100,5 @@ for i in range (0,len(suffix)):
 
 res=prefix+mirror
 print ("The mirror reusult is", res)
+
+
