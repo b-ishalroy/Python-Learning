@@ -3,6 +3,13 @@ def greet (message):
 
 greet("Hello World")
 
+
+def sum(x,y):
+    return x+y
+print(sum(200,300))
+
+
+
 def add(x,y):
    sum = x+y
    return sum
@@ -63,9 +70,28 @@ def calcul(firstNum,secondNum,operator):
         result = firstNum / secondNum
     else:
         result = "Invalid operator"
-
     return result
 
 print(calcul(5, 5, "+"))
 
+
+
+def outerfunction():
+ x=1 #variable in the outer fucntion
+ def innerfunction():
+    y=2 #variable of inner function
+    result=x+y
+    return result
+ return innerfunction()
+
+print(outerfunction())
+
+
+def outfun():
+    a=5
+    def infunc():
+        b=3
+        return b-a
+    return infunc()
+print(outfun())
 
