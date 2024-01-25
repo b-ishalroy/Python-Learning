@@ -95,3 +95,59 @@ def outfun():
     return infunc()
 print(outfun())
 
+
+
+
+# pass by reference and pass by function 
+
+# pass by value = immutable object such as numbers (integers, floats), strings, and tuples,
+def myname(num):
+    num += 1
+    print("inside function:", num)
+    return num
+
+x = 11
+x = myname(x)
+print("name of me:", x)
+
+y=99
+y=myname(y)
+print( "number of the y = ",y)
+
+
+
+def modify_number(num):
+    num += 1
+    print("Inside function:", num)
+    
+x = 5
+modify_number(x)
+print("Outside function:", x)
+
+
+
+def nameAdd(nam):
+    name=nam+"ishal"
+    print("Full name =",name)
+    return name
+
+a="b"
+c=nameAdd(a)
+print("full name present =",c)
+
+
+
+# pass by reference = such as lists, dictionaries, and custom objects 
+def modify_list(ist):
+    ist.append(200)
+    print("inside funtion=",ist)
+    return ist
+
+my_list=[1,2,3,4,5]
+modify_list(my_list)
+print("outside function=",my_list)
+
+# for this logic if we hide the [return list] than it will come= none
+u_list=[5,5,5,6,4,56,5]
+y=modify_list(u_list)
+print("ur modify function=",y)
