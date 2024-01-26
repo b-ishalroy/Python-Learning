@@ -15,10 +15,42 @@ print(student_2.name)
 
 
 # Using classes finding area and perimeter of the rectangle 
+
+
+
+# class rectangle:
+#     def rectangle_name(self,width,height):
+#         self.width=width
+#         self.height=height
+
+#     def area(self):
+#         return self.height*self.width
+
+#     def perimeter(self):
+#         return 2*(self.height+self.width)
+
+# rectangle_1=rectangle()
+# rectangle_1.rectangle_name(5,9)    
+# print("The height of the rectangle is =",rectangle_1.height,end=" and ")    
+# print("The width of the rectangle is = ",rectangle_1.width)
+# print("The area of the rectangle is =",rectangle_1.area())
+# print("The perimeter of the rectangle is =",rectangle_1.perimeter())
+
+
+
+
+
+# CLASS CONSTRUCTOR 
 class rectangle:
-    def rectangle_name(self,width,height):
+
+    def __init__(self,width,height):
+        print("A rectangle is created with height",height, "& width", width)
         self.width=width
         self.height=height
+        
+    # def rectangle_name(self,width,height):
+    #     self.width=width
+    #     self.height=height
 
     def area(self):
         return self.height*self.width
@@ -26,15 +58,11 @@ class rectangle:
     def perimeter(self):
         return 2*(self.height+self.width)
 
-rectangle_1=rectangle()
-rectangle_1.rectangle_name(5,9)    
+rectangle_1=rectangle(5,9)
+# rectangle_1.rectangle_name(5,9)    
 print("The height of the rectangle is =",rectangle_1.height,end=" and ")    
 print("The width of the rectangle is = ",rectangle_1.width)
 print("The area of the rectangle is =",rectangle_1.area())
 print("The perimeter of the rectangle is =",rectangle_1.perimeter())
 
-
-    
-
-
-
+rectangle_2=rectangle(100,5)
