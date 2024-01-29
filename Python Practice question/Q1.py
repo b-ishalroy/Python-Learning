@@ -16,7 +16,6 @@ print("The sum of two array is =", result)
 
 
 #merge two sorted list
-
 list1 = [1,2,4]
 list2 = [1,3,4]
 
@@ -46,5 +45,29 @@ class Solution:
 Solution_1=Solution()
 resultdummy=Solution_1.mergeTwoLists(list1,list2)
 
+
+
+
+# Remove Duplicates from Sorted List 
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        curr = dummy = ListNode()
+        while head:
+            if curr.val >= head.val:
+                curr.next = head
+                head = head.next
+            else:
+                curr.next = head
+                curr = head
+                head = head.next
+
+        curr.next = None
+
+        return dummy.next
 
 
